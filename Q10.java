@@ -17,7 +17,6 @@ public class Q10
 			arr[i][j]=obj.nextDouble();
         for(int k=0;k<4;k++)
 		System.out.println("Sum of the elements at column " +k+"  is  "+sumColumn(arr,k));
-        obj.close();
     }    
     public static double sumColumn(double[][] m, int columnIndex)
     {
